@@ -1,0 +1,7 @@
+Current dotnet version: 3.1.301
+EF migration tools:
+1- dotnet tool install --global dotnet-ef
+2- install Nuget package: 
+    F1 -> Nuget pckage manager add package -> Microsoft.EntityFrameworkCore.Design (ver 3.1.3)
+3- dotnet ef migrations add InitialCreate
+4- dotnet ef database update
