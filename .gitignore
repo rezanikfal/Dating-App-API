@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 datingapp.db
+datingapp.db-shm
+datingapp.db-wal
 # User-specific files
 *.rsuser
 *.suo
